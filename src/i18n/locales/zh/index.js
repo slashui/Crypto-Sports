@@ -1,0 +1,62 @@
+const FAQs_CONTENT = require('raw-loader!./faq.html');
+const Schedule_CONTENT = require('raw-loader!./schedule.html');
+const Country_1 = require('raw-loader!./country1.html');
+const PRIVACY_CONTENT = require('raw-loader!./privacy.html');
+const TERMS_CONTENT = require('raw-loader!./terms.html');
+
+module.exports = {
+    'Cryptofootball':'以太足球',
+    'MyTeam':'我的球队',
+    'Schedule':'世界杯赛程',
+    'FAQs':'买卖规则',
+    'Contact Us':'联系我们',
+    'Owner':'拥有者',
+    'Price':'价格',
+    'nextPrice':'购买价格',
+    'Buyit':'归我了',
+    'Russia':'俄罗斯',
+    'SaudiArabia':'沙特阿拉伯',
+    'Egypt':'埃及',
+    'Uruguay':'乌拉圭',
+    'Portugal':'葡萄牙',
+    'Spain':'西班牙',
+    'Morocco':'摩洛哥',
+    'IRIran':'伊朗',
+    'France':'法国',
+    'Australia':'澳大利亚',
+    'Peru':'秘鲁',
+    'Denmark':'丹麦',
+    'Argentina':'阿根廷',
+    'Iceland':'冰岛',
+    'Croatia':'克罗地亚',
+    'Nigeria':'尼日利亚',
+    'Brazil':'巴西',
+    'Switzerland':'瑞士',
+    'CostaRica':'哥斯达黎加',
+    'Serbia':'塞尔维亚',
+    'Germany':'德国',
+    'Mexico':'墨西哥',
+    'Sweden':'瑞典',
+    'KoreaRepublic':'韩国',
+    'Belgium':'比利时',
+    'Panama':'巴拿马',
+    'Tunisia':'突尼斯',
+    'England':'英格兰',
+    'Poland':'波兰',
+    'Senegal':'塞内加尔',
+    'Colombia':'哥伦比亚',
+    'Japan':'日本',
+    'User':'用户',
+    'My Country Team':'我拥有的国家队',
+    'Slogan':'标语',
+    'Terms of Service':'使用条款',
+    'Privacy Policy':'隐私政策',
+
+
+  
+  FAQs_CONTENT,
+  Schedule_CONTENT,
+  Country_1, 
+  PRIVACY_CONTENT,
+  TERMS_CONTENT,
+};

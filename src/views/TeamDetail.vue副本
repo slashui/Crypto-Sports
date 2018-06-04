@@ -1,0 +1,90 @@
+<!--Show all football nation teams list-->
+
+<template>
+  <div style="text-align:left;">
+11{{item.id}}
+<br>
+    
+   <!--{{$t('teamnumber')}}:{{item.id}}<br/>
+   {{$t('teamname')}}:{{item.name}}<br/>
+   {{$t('teamnickname')}}:{{item.nickname}}<br/>
+   {{$t('teamowner')}}:{{item.owner}}<br/>
+   {{$t('currentprice')}}:{{toDisplayedPrice(item.price)}}<br/>
+   {{$t('nextprice')}}:{{toDisplayedPrice(item.nextPrice)}}<br/>
+
+   <button class="button is-danger is-outlined"
+                      @click="onBuy(1)">购买！！</button>
+
+-->
+  </div>
+</template>
+
+<script>
+import { toReadablePrice,buyItem } from '../api.js';
+
+export default{
+name: 'Team-Detail',
+
+  data: () => ({}),
+
+  computed: {
+    itemId() {
+      return this.$route.params.id;
+    },
+    me() {
+      return this.$store.state.me || {};
+    },
+    item() {
+      return this.$store.state.items[this.itemId];
+    }
+    
+  },
+  async created() {
+    this.$store.dispatch('FETCH_ITEM', this.itemId);
+    
+  },
+  computed: {
+  },
+  methods:{
+    onBuy(rate) {
+      
+      const buyPrice = this.item.price.times(rate).toFixed(0);
+      buyItem(this.itemId, buyPrice)
+        .then(() => {
+          alert("success");
+          
+        })
+        .catch((e) => {
+          alert("err");
+          console.log(e);
+        });
+    },
+    toDisplayedPrice(priceInWei) {
+      const readable = toReadablePrice(priceInWei);
+      return `${readable.price} ${readable.unit}`;
+    },
+    
+  },
+
+  watch: {},
+
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+</style>

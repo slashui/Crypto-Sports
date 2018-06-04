@@ -1,0 +1,130 @@
+{
+    "1": {
+        "name": "俄罗斯",
+        "nickname": "Russia"
+    },
+    "2": {
+        "name": "沙特阿拉伯",
+        "nickname": "SaudiArabia"
+    },
+    "3": {
+        "name": "埃及",
+        "nickname": "Egypt"
+    },
+    "4": {
+        "name": "乌拉圭",
+        "nickname": "Uruguay"
+    },
+    "5": {
+        "name": "葡萄牙",
+        "nickname": "Portugal"
+    },
+    "6": {
+        "name": "西班牙",
+        "nickname": "Spain"
+    },
+    "7": {
+        "name": "摩洛哥",
+        "nickname": "Morocco"
+    },
+    "8": {
+        "name": "伊朗",
+        "nickname": "IRIran"
+    },
+    "9": {
+        "name": "法国",
+        "nickname": "France"
+    },
+    "10": {
+        "name": "澳大利亚",
+        "nickname": "Australia"
+    },
+    "11": {
+        "name": "秘鲁",
+        "nickname": "Peru"
+    },
+    "12": {
+        "name": "丹麦",
+        "nickname": "Denmark"
+    },
+    "13": {
+        "name": "阿根廷",
+        "nickname": "Argentina"
+    },
+    "14": {
+        "name": "冰岛",
+        "nickname": "Iceland"
+    },
+    "15": {
+        "name": "克罗地亚",
+        "nickname": "Croatia"
+    },
+    "16": {
+        "name": "尼日利亚",
+        "nickname": "Nigeria"
+    },
+    "17": {
+        "name": "巴西",
+        "nickname": "Brazil"
+    },
+    "18": {
+        "name": "瑞士",
+        "nickname": "Switzerland"
+    },
+    "19": {
+        "name": "哥斯达黎加",
+        "nickname": "CostaRica"
+    },
+    "20": {
+        "name": "塞尔维亚",
+        "nickname": "Serbia"
+    },
+    "21": {
+        "name": "德国",
+        "nickname": "Germany"
+    },
+    "22": {
+        "name": "墨西哥",
+        "nickname": "Mexico"
+    },
+    "23": {
+        "name": "瑞典",
+        "nickname": "Sweden"
+    },
+    "24": {
+        "name": "韩国",
+        "nickname": "KoreaRepublic"
+    },
+    "25": {
+        "name": "比利时",
+        "nickname": "Belgium"
+    },
+    "26": {
+        "name": "巴拿马",
+        "nickname": "Panama"
+    },
+    "27": {
+        "name": "突尼斯",
+        "nickname": "Tunisia"
+    },
+    "28": {
+        "name": "英格兰",
+        "nickname": "England"
+    },
+    "29": {
+        "name": "波兰",
+        "nickname": "Poland"
+    },
+    "30": {
+        "name": "塞内加尔",
+        "nickname": "Senegal"
+    },
+    "31": {
+        "name": "哥伦比亚",
+        "nickname": "Colombia"
+    },
+    "32": {
+        "name": "日本",
+        "nickname": "Japan"
+    }
+}
