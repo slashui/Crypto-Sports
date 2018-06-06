@@ -1,6 +1,6 @@
-# test
+# Crypto Sports
 
-> A Vue.js project
+> CryptoFootball is one of CryptoSports game. A card game that can get the national team card on the block chain then earn ETH Rewards. Through intelligent contract technology, each card is unique and corresponds to a national team participating in the world cup. Once you buy a national team card, you have the ownership of the world cup national team card. You can leave a message on your card and express your enthusiasm for this team. Let other countries fans know your support team.
 
 ## Build Setup
 
