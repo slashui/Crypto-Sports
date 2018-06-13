@@ -4,6 +4,8 @@
 
  Site Url is https://www.cryptosports.top/
 
+ ![image](https://www.cryptosports.top/site.jpg)
+
  Site contract address is https://etherscan.io/address/0x8b0b4e4e389cd2f1a8b7d91b5c6537efa7f08f12
 
  This site is a learning DAPP site. using Vue.js builded, Webpack to package, Using Web3.js connect Ethereum network and REST API to LeanCloud build slogan function. Site language using Internationalization plugin for Vue.js, but cause no more time, just actived English language. Regretly, slogan function connect LeanCloud REST API, but I have no time put them to VUEX. now just feel and look work together on index UI.
