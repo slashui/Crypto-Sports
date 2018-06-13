@@ -1,6 +1,10 @@
 # Crypto Sports
 
 > CryptoFootball is one of CryptoSports game. A card game that can get the national team card on the block chain then earn ETH Rewards. Through intelligent contract technology, each card is unique and corresponds to a national team participating in the world cup. Once you buy a national team card, you have the ownership of the world cup national team card. You can leave a message on your card and express your enthusiasm for this team. Let other countries fans know your support team.
+> Site Url is https://www.cryptosports.top/
+> Site contract address is https://etherscan.io/address/0x8b0b4e4e389cd2f1a8b7d91b5c6537efa7f08f12
+> This site is a learning DAPP site. using Vue.js builded, Webpack to package, Using Web3.js connect Ethereum network and REST API to LeanCloud build slogan function.
+> I am very glad to share with you, communicate and study.
 
 ## Build Setup
 
